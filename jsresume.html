@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sai jaswanthi - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            border-radius: 10px;
+        }
+        h1 {
+            color: hsl(135, 100%, 50%);
+            text-align: center;
+            margin-bottom: 0;
+        }
+        p.title {
+            text-align: center;
+            color: #555;
+            margin-top: 5px;
+        }
+        h3 {
+            color: #00ff62;
+            padding-bottom: 5px;
+            display: inline-block;
+            position: relative;
+        }
+        h3::after {
+            content: '';
+            width: 60px; /* Default length of the border */
+            height: 2px;
+            background-color: #00ff6a;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        .contact h3::after { width: 190px; }
+        .Education h3::after { width: 100px; }
+        .skill h3::after { width: 60px; }
+        .Projects h3::after { width: 80px; }
+        .Experience h3::after { width: 100px; }
+        .objective h3::after { width: 100px; }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+            border-bottom: 1px solid #e4e4e4;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        .contact span,
+        .Education span,
+        .section span,
+        .skill span {
+            font-weight: bold;
+        }
+        .contact, .section, .Education, .skill, .Experience, .Projects {
+            margin-bottom: 20px;
+        }
+        .objective {
+            padding: 10px 20px;
+            background-color: #e8f4fa;
+            border-left: 5px solid #00ff84;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+        .image img {
+            float:right;
+            width: 20%;
+            height: 30%;
+            object-fit: cover;
+        }
+        .contact ul, .Education ul, .section ul, .skill ul, .Experience ul, .Projects ul {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .title {
+            text-align: center;
+            color: #00ff95;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="download.jpg" alt="Profile Image"> 
+        </div>
+        <h1>sai jaswanthi</h1>
+        <p class="title">web development</p>
+
+        <div class="contact">
+            <h3>Contact Information</h3>
+            <ul>
+                <li><span>Email:</span> jash.hup@gmail.com</li>
+                <li><span>Phone:</span> 5678934210</li>
+                <li><span>Address:</span> kudlu gate, Bangalore</li>
+            </ul>
+        </div>
+
+        <div class="objective">
+            <h3>Objective</h3>
+            <p>
+                Computer Science graduate with strong programming skills in Java and Python, seeking an entry-level Software Developer position at ABC Corp. Eager to apply my knowledge of software development and problem-solving skills to contribute to innovative projects.
+            </p>
+        </div>
+
+        <div class="Education">
+            <h3>Education</h3>
+            <ul>
+                <li>1. <span>University:</span> Dayananda Sagar University</li>
+                <li><span>Degree:</span> MCA</li>
+                <li><span>Graduation Year:</span> 2025</li>
+            </ul>
+<div class="skill">
+            <h3>Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>DBMS</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+            </ul>
+        </div>
+        
+        <div class="Experience">
+            <h3>Experience</h3>
+            <ul>
+                <li>Fresher</li>
+            </ul>
+        </div>
+        
+        <div class="Projects">
+            <h3>Projects</h3>
+            <ul>
+                <li>Breast Cancer Prediction</li>
+                <li>Book Recommendation System</li>
+            </ul>
+        </div>
+        <div class="section video">
+            <h2>Self Reference Video</h2>
+            <iframe src="your-video-url" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
